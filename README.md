@@ -1,6 +1,15 @@
 # challenge-three-bootcamp
 ## 03 JavaScript: Employee Payroll Tracker
 
+### Starter Code from
+https://git.bootcampcontent.com/University-of-Sydney/USYD-VIRT-FSF-PT-05-2024-U-LOLC/-/tree/main/03-JavaScript/02-Challenge?ref_type=heads
+
+### GitHub Repo
+https://github.com/KateHanSta17/challenge-three-bootcamp
+
+### GitPages URL
+TBA
+
 ### Your Task
 
 This week's Challenge requires you to modify starter code to create an application that enables a payroll manager to view and manage employee payroll data. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
@@ -28,30 +37,57 @@ THEN my employee data is displayed on the page sorted alphabetically by last nam
 ```
 
 
-## What the Employee Payroll Tracker does
-1.
-![Tracker Start](./Assets/App%20Start.png)
+## The Employee Payroll Tracker
+### Description
+Below is a step-by-step guide of the Employee Payroll tracker and how to use. This tracker adds employee data to a table and collates the information in the final screen. 
+In the console log you can find the average salary of all employees listed in the array; and as required, a random employee has been selected to win a draw.
+Refresh the browser to start again.
+
+### Step-by-step instructions of How to Use this Employee Tracker
+I have briefly included which steps fulfil which items of the Acceptance Criteria.
+
+```md
+GIVEN an employee payroll tracker
+WHEN I click the "Add employee" button
+THEN I am presented with a series of prompts asking for first name, last name, and salary
+```
+1. Start
+![Tracker Start](./Assets/app-start.jpg)
 *This is how the app starts. Click "Add Employee" to begin*
 
-2.
-![First Name](./Assets/First%20Name.png)
+2. Enter first name
+![First Name](./Assets/first-name.jpg)
 
-3.
-![Last Name](./Assets/Last%20Name.png)
+3. Enter last name
+![Last Name](./Assets/last-name.jpg)
 
-4.
-![Salary](./Assets/Salary.png)
+4. Enter Salary as a number
+![Salary](./Assets/salary.jpg)
 
-5.
-![Cancel or Continue](./Assets/Would%20you%20like%20to%20add?.png)
+```md
+WHEN I finish adding an employee
+THEN I am prompted to continue or cancel
+WHEN I choose to continue
+THEN I am prompted to add a new employee
+```
 
-6.
-![This is the final product of this employee tracker app](./Assets/App%20Results.png)
+5. Click OK to continue adding employees or click cancel to review the final roster.
+![Cancel or Continue](./Assets/add-or-cancel.jpg)
+
+```md
+WHEN I choose to cancel
+THEN my employee data is displayed on the page sorted alphabetically by last name, and the console shows computed and aggregated data
+```
+
+6. Results summary & console log functions.
+![This is the final product of this employee tracker app](./Assets/app-results.jpg)
 *Example of final result after all employee names and salaries have been entered and console log winner is defined at random.*
 
-!!NOTE!!
-![Note that if a salary is missing it defaults to $0.](./Assets/App%20function%20with%20error%20example.png)
+7. !!NOTE!!
+![Note that if a salary is missing it defaults to $0.](./Assets/app-function-with-error-example.jpg)
 *Example of Salary error where if no number is provided, results default to $0. No function to edit current input at this time. Restart application to correct if required and start again.*
+
+======================================================================
 
 ### Original Mock-Up
 
@@ -61,7 +97,9 @@ The following images show the web application's appearance and functionality:
 
 ![Shows employee information in the console of an employee payroll tracker.](./Assets/Images/03-javascript-homework-console-demo.png)
 
-#### Getting Started
+======================================================================
+
+## Getting Started - Project Guidelines
 
 You will be responsible for filling out the following functions:
 
@@ -96,11 +134,11 @@ This is an autograded assignment, meaning that you will follow the link below to
 
 > **note** If you need any assistance with the Ed platform, please review the information on submitting assignments in Module 0.
 
-### Grading Requirements
+## Grading Requirements
 
 This Challenge is graded based on the following criteria:
 
-#### Function to Collect Employees 40%
+### Function to Collect Employees 40%
 
 * The `collectEmployees()` function must do the following:
 
@@ -108,7 +146,7 @@ This Challenge is graded based on the following criteria:
 
   * creates multiple employee objects by collecting first name, last name, and salary for each employee using `prompt()` and `confirm()` (20 points)
 
-#### Function to Display Average Salary 30%
+### Function to Display Average Salary 30%
 
 * The `displayAverageSalary()` function must do the following:
 
@@ -116,7 +154,7 @@ This Challenge is graded based on the following criteria:
 
   * calculates the average salary and logs "The average employee salary between our <numberOfEmployees> employee(s) is $<averageSalaryWithTwoDecimals>" when given salaries with decimals (15 points)
 
-### Function to Choose a Random Drawing Winner 30%
+## Function to Choose a Random Drawing Winner 30%
 
 * The `getRandomEmployee()` function should do the following:
 
