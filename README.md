@@ -1,11 +1,6 @@
 # challenge-three-bootcamp
 ## 03 JavaScript: Employee Payroll Tracker
 
-## What it does
-![This is the final product of this employee tracker app](./Assets/App%20Results.png)
-!(Note that if a salary is missing it defaults to $0.) ()
-
-
 ### Your Task
 
 This week's Challenge requires you to modify starter code to create an application that enables a payroll manager to view and manage employee payroll data. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
@@ -32,7 +27,33 @@ WHEN I choose to cancel
 THEN my employee data is displayed on the page sorted alphabetically by last name, and the console shows computed and aggregated data
 ```
 
-### Mock-Up
+
+## What the Employee Payroll Tracker does
+1.
+![Tracker Start](./Assets/App%20Start.png)
+*This is how the app starts. Click "Add Employee" to begin*
+
+2.
+![First Name](./Assets/First%20Name.png)
+
+3.
+![Last Name](./Assets/Last%20Name.png)
+
+4.
+![Salary](./Assets/Salary.png)
+
+5.
+![Cancel or Continue](./Assets/Would%20you%20like%20to%20add?.png)
+
+6.
+![This is the final product of this employee tracker app](./Assets/App%20Results.png)
+*Example of final result after all employee names and salaries have been entered and console log winner is defined at random.*
+
+!!NOTE!!
+![Note that if a salary is missing it defaults to $0.](./Assets/App%20function%20with%20error%20example.png)
+*Example of Salary error where if no number is provided, results default to $0. No function to edit current input at this time. Restart application to correct if required and start again.*
+
+### Original Mock-Up
 
 The following images show the web application's appearance and functionality:
 
