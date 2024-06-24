@@ -52,17 +52,17 @@ WHEN I click the "Add employee" button
 THEN I am presented with a series of prompts asking for first name, last name, and salary
 ```
 1. Start
-![Tracker Start](./Assets/app-start.jpg)
+![Tracker Start](./Assets/README-screenshots/app-start.jpg)
 *This is how the app starts. Click "Add Employee" to begin*
 
 2. Enter first name
-![First Name](./Assets/first-name.jpg)
+![First Name](./Assets/README-screenshots/first-name.jpg)
 
 3. Enter last name
-![Last Name](./Assets/last-name.jpg)
+![Last Name](./Assets/README-screenshots/last-name.jpg)
 
 4. Enter Salary as a number
-![Salary](./Assets/salary.jpg)
+![Salary](./Assets/README-screenshots/salary.jpg)
 
 ```md
 WHEN I finish adding an employee
@@ -72,7 +72,7 @@ THEN I am prompted to add a new employee
 ```
 
 5. Click OK to continue adding employees or click cancel to review the final roster.
-![Cancel or Continue](./Assets/add-or-cancel.jpg)
+![Cancel or Continue](./Assets/README-screenshots/add-or-cancel.jpeg)
 
 ```md
 WHEN I choose to cancel
@@ -80,11 +80,11 @@ THEN my employee data is displayed on the page sorted alphabetically by last nam
 ```
 
 6. Results summary & console log functions.
-![This is the final product of this employee tracker app](./Assets/app-results.jpg)
+![This is the final product of this employee tracker app](./Assets/README-screenshots/app-results.jpg)
 *Example of final result after all employee names and salaries have been entered and console log winner is defined at random.*
 
 7. !!NOTE!!
-![Note that if a salary is missing it defaults to $0.](./Assets/app-function-with-error-example.jpg)
+![Note that if a salary is missing it defaults to $0.](./Assets/README-screenshots/app-function-with-error-example.jpg)
 *Example of Salary error where if no number is provided, results default to $0. No function to edit current input at this time. Restart application to correct if required and start again.*
 
 ======================================================================
