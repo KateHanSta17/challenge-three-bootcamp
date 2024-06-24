@@ -8,7 +8,7 @@ https://git.bootcampcontent.com/University-of-Sydney/USYD-VIRT-FSF-PT-05-2024-U-
 https://github.com/KateHanSta17/challenge-three-bootcamp
 
 ### GitPages URL
-TBA
+https://katehansta17.github.io/challenge-three-bootcamp/
 
 ### Your Task
 
